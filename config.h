@@ -7,7 +7,7 @@ static int min_width = 400;                    /* minimum width when centered */
 static const unsigned int alpha = 0xc9;     /* Amount of opacity. 0xff is opaque             */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Inconsolata-SemiExpanded:size=12"
+	"Inconsolata-SemiExpanded:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
