@@ -9,7 +9,7 @@ static const unsigned int alpha = 0xc9;     /* Amount of opacity. 0xff is opaque
 static const char *fonts[] = {
 	"Inconsolata-SemiExpanded:size=10"
 };
-static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
+static const char *prompt = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#bbbbbb", "#000000" },
@@ -23,7 +23,7 @@ static const unsigned int alphas[SchemeLast][2] = {
 	[SchemeOut] = { OPAQUE, alpha },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 0;
+static unsigned int lines = 0;
 
 /*
  * Characters not considered part of a word while deleting words
